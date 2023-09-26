@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${ANDROID_HOME}/ndk/25.1.8937393/",
+                "/home/humxc/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}

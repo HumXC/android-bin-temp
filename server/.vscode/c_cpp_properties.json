@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/jni/shiroko/**",
+                "${NDK_DIR}/sources/cxx-stl/llvm-libc++/include/**",
+                "${NDK_DIR}/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/**",
+                "${NDK_DIR}/toolchains/llvm/prebuilt/linux-x86_64/lib/**",
+                "${NDK_DIR}/toolchains/llvm/prebuilt/linux-x86_64/lib64/**",
+                "${NDK_DIR}/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/nix/store/rcj7ky9y08jh9wqd00js2daynw79kr2f-androidsdk/libexec/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

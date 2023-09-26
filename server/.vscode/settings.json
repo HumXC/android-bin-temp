@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "dunstrc": "toml",
+        "iostream": "cpp",
+        "string": "cpp",
+        "ostream": "cpp",
+        "__locale": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true
+}
