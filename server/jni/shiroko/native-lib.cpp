@@ -2,11 +2,11 @@
 #include <string>
 #include "global.h"
 #include "main.h"
-
+JNIEnv *GLOBAL_JNI = NULL;
 extern "C" JNIEXPORT jint JNICALL
 Java_shiroko_Main_cppMain(JNIEnv *env, jclass clazz, jobjectArray args)
 {
-    JNIEnv *GLOBAL_JNI = env;
+    GLOBAL_JNI = env;
     int argc = env->GetArrayLength(args);
     const char **argv = new const char *[argc];
 
